@@ -1,18 +1,5 @@
 import React, { useEffect } from 'react';
-
-interface Product {
-  brand?: string,
-  category?: string,
-  description?: string,
-  discountPercentage?: number,
-  id: number,
-  images?: string[],
-  price?: number,
-  rating?: number,
-  stock?: number,
-  thumbnail?: string,
-  title?: string
-}
+import { Product } from '../interfaces';
 
 export default function ProductList(props: {
   products: Product[],

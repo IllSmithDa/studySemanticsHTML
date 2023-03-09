@@ -2,20 +2,7 @@ import { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import ProductList from '../../components/ProductList/ProductList';
 import Footer from '../../components/Footer/Footer';
-
-interface Product {
-  brand?: string,
-  category?: string,
-  description?: string,
-  discountPercentage?: number,
-  id: number,
-  images?: string[],
-  price?: number,
-  rating?: number,
-  stock?: number,
-  thumbnail?: string,
-  title?: string
-}
+import { Product } from '../../components/interfaces';
 
 export default function Homepage() {
   const [productList, setProductList]= useState<Product[]>([]);

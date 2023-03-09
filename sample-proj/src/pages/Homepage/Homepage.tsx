@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import Navbar from '../../../components/Navbar/Navbar';
-import ProductList from '../../../components/ProductList/ProductList';
-import Footer from '../../../components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+import ProductList from '../../components/ProductList/ProductList';
+import Footer from '../../components/Footer/Footer';
 
 interface Product {
   brand?: string,
@@ -30,13 +30,13 @@ export default function Homepage() {
     })
   }, [])
   return (
-    <div>
+    <main>
       <Navbar />
       <section>
         <header>Blue Star</header>
       </section>
       <ProductList products={productList} />
       <Footer />
-    </div>
+    </main>
   )
 }

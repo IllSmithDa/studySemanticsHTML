@@ -102,3 +102,20 @@
       <img src="pic_trulli.jpg" alt="Trulli">
       <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
     </figure>
+    
+# Main tag 
+
+  1. The 'main' element should contain the main content for our web page and
+     content should be unique to the individual page, and should not appear
+     elsewhere on the site.
+  
+    e.g
+    <main>
+      <h1>Most Popular Browsers</h1>
+      <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+      <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+      </article>
+    </main>

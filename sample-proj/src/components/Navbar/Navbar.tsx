@@ -19,7 +19,7 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-      <input />
+      <input aria-label="Search for Products"/>
     </section>
   )
 }

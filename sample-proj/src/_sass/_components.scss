@@ -1,0 +1,53 @@
+@import "./variables";
+@import "./mixins";
+
+.nav-link,
+.nav-link:visited {
+  color: $color-white;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  position: relative;
+  padding: 0 1rem;
+  text-decoration: none;
+  height: 3rem;
+  &:hover,
+  &:active {
+    border-bottom: 1px solid $color-white;
+  }
+}
+
+.custom-input {
+  border-radius: 5px;
+  background: rgb(249, 250, 250);
+  border: 1px solid rgb(181, 189, 196);
+  font-size: 16px;
+  height: 40px;
+  line-height: 24px;
+  color: rgb(8, 9, 10);
+  box-shadow: none;
+  :focus{
+      background-color: #fff;
+      border-color: #3b49df;
+      box-shadow: 1px 1px 0 #3b49df;
+  }
+  
+}
+
+.custom-icon {
+  height: 3rem;
+  color: #EEE;
+  &:hover,
+  &:active {
+    color: #FFF;
+  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  svg {
+    width: 1.5rem;
+    height: 1.5rem
+  }
+}

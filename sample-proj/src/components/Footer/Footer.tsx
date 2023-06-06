@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <section>
+    <section aria-label="Bottom page links">
       <ul>
         <li>
           <a href='#'><h2>Member Ship</h2></a>

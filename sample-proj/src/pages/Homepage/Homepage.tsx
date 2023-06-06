@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import Navbar from '../../components/Navbar/Navbar';
 import ProductList from '../../components/ProductList/ProductList';
 import Footer from '../../components/Footer/Footer';
-import { Product } from '../../components/interfaces';
+import { Product } from '../../components/_interfaces';
+import Header from '../../components/Header/Header';
 
 export default function Homepage() {
   const [productList, setProductList]= useState<Product[]>([]);
@@ -18,12 +18,8 @@ export default function Homepage() {
   }, [])
   return (
     <main>
-      <Navbar />
-      <section>
-        <header>Blue Star</header>
-      </section>
+      <Header />  
       <ProductList products={productList} />
-      <Footer />
-    </main>
+    </main> 
   )
 }

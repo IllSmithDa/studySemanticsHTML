@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Product } from '../interfaces';
+import { Product } from '../_interfaces';
 
 export default function ProductList(props: {
   products: Product[],

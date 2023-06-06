@@ -1,0 +1,16 @@
+@import "../../_sass//components";
+@import "../../_sass/layout";
+@import "../../_sass/utility";
+
+.header-bar {
+  height: 3rem;
+  width: 100%;
+  @media (max-width: 1023px) {
+    display: block;
+  }
+}
+.snowflake-link {
+  @media (max-width: 1023px) {
+    width: 3rem;
+  }
+}

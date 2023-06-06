@@ -71,6 +71,12 @@
       <a href="/jquery/">jQuery</a>
     </nav>
 
+  3. Note that the nav tag is equivalent to a div tag with the role navigation
+     attached to it 
+
+     e.g
+     <nav></nav> = <div role="navigation"></div>
+
 # Aside Element
 
   1. The 'aside' element defines some content aside from the content it is placed in (like a sidebar).
@@ -119,3 +125,8 @@
         <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
       </article>
     </main>
+
+# Section Tags
+
+  1. A section Tag is equal to a div tag with role = 'region'  using
+     aria-labelby, aria-label , or a title

@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header>
       <nav
-        className="flex-horizontal header-bar"
+        className="flex-horizontal-center header-bar"
       >
         <a className="snowflake-link custom-icon margin-x-reg" href="#"><CustomIcon iconName={faSnowflake} /></a>
         <NavLink label="Desktops" link="#" />

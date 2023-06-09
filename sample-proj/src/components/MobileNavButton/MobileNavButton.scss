@@ -3,19 +3,19 @@
 @import "../../_sass//mixins";
 
 .hamburger-menu {
-  @include flexCenter;
+  display: none;
   position: fixed;
   top: 2rem;
   right: 2rem;
   z-index: 3;
   background-color: rgba($color-white, 0.9);
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   box-shadow: $light-shadow;
   transition: all .5s;
   cursor: pointer;
-  background-image: linear-gradient(120deg, transparent 50%, transparent 50%, $light-green 50%);
+  background-image: linear-gradient(120deg, transparent 50%, transparent 50%, $color-cloud 50%);
   background-size: 220%;
   hr {
     width: 3rem;
@@ -23,12 +23,15 @@
     margin-bottom: 3px;
     background-color: #666;
     border-color: #666;
-    height: 3px;
+    height: 2px;
     transition: 0.5s ease-in;
   }
   &:hover {
     background-position: 100%;
     box-shadow: $default-shadow;
+  }
+  @media (max-width: 1023px) {
+    @include flexCenter;
   }
 }
 .default-line {
@@ -38,13 +41,13 @@
 }
 .line1 {
   display:  inline-block;
-  transform: translateY(9px) rotate(-45deg);
+  transform: translateY(10px) rotate(-45deg);
 }
 .line2 {
   opacity: 0;
 }
 .line3 {
   display:  inline-block;
-  transform:  translateY(-9px) rotate(45deg);
+  transform:  translateY(-10px) rotate(45deg);
 }
 

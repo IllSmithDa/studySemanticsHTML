@@ -13,8 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
-body {
+body, ul, li, p, section {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

@@ -1,0 +1,12 @@
+.select-options {
+  cursor: pointer;
+  color: #DDD;
+  &:hover,
+  &:active {
+      color: #FFF;
+  }
+  background-color: #00B4CC !important;
+  padding: 5px;
+  border: 3px solid #00B4CC !important;
+  margin: 0;
+}

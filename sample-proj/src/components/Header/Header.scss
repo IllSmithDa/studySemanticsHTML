@@ -3,7 +3,7 @@
 @import "../../_sass/utility";
 
 .header-bar {
-  height: 4rem;
+  height: 5rem;
   width: 100%;
   @media (max-width: 1023px) {
     display: block;
@@ -11,6 +11,12 @@
 }
 .snowflake-link {
   @media (max-width: 1023px) {
-    width: 3rem;
+    width: 5rem;
+    height: 5rem;
+    color: #EEE;
+    &:hover,
+    &:active {
+      color: #FFF;
+    }
   }
 }

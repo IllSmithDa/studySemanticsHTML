@@ -1,0 +1,25 @@
+@import "../../_sass/layout";
+.search-bar {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    outline: none;
+    color: #9DBFAF;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.search-bar-container {
+    margin: auto;
+    width: 1023px;
+    height: 5rem;
+}
+.search-button {
+    color: #DDD;
+    &:hover,
+    &:active {
+        color: #FFF;
+    }
+    background-color: #00B4CC;
+    margin: 0;
+}

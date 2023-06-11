@@ -9,7 +9,7 @@ export default function SelectGroup(props : {
     <select className="select-options">
       {
         allOptions.map((option) => (
-          <option>{option}</option>
+          <option className="reg-link">{option}</option>
         ))
       }
     </select>

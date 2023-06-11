@@ -12,8 +12,8 @@ export default function ProductList(props: {
           props.products.map((product) => {
             return (
               <li key={product.id} className="product-item">
-                <h2>{product.title}</h2>
-                <img alt={`${product.title}`} src={product.thumbnail} />
+                <a href="#" className="reg-links"><p>{product.title}</p></a>
+                <a href="#"><img alt={`${product.title}`} src={product.thumbnail} /></a>
                 <p>${product.price}.99</p>
               </li>
             )

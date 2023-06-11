@@ -57,3 +57,16 @@
     color: #FFF;
   }
 }
+
+.reg-links {
+  color: #DDD;
+  text-decoration: none;
+  &:hover,
+  &:active {
+    text-decoration: underline;
+    color: #FFF;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}

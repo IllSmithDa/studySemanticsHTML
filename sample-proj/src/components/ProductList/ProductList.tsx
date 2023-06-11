@@ -6,7 +6,7 @@ export default function ProductList(props: {
   products: Product[],
 }) {
   return (
-    <section>
+    <section className="product-list">
       <ul className="five-grid">
         {
           props.products.map((product) => {
@@ -15,7 +15,6 @@ export default function ProductList(props: {
                 <h2>{product.title}</h2>
                 <img alt={`${product.title}`} src={product.thumbnail} />
                 <p>${product.price}.99</p>
-                <p>{product.description}</p>
               </li>
             )
           })

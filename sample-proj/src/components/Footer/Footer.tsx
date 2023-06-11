@@ -1,8 +1,8 @@
 import React from 'react';
-
+import "./Footer.scss";
 export default function Footer() {
   return (
-    <section aria-label="Bottom page links">
+    <section aria-label="Bottom page links" className="footer-container">
       <ul>
         <li>
           <a href='#'><h2>Member Ship</h2></a>
@@ -72,6 +72,9 @@ export default function Footer() {
         </li>
       </ul>
       <ul>
+        <li>
+          <a href='#'><h2>Other</h2></a>
+        </li>
         <li>
           <a href='#'>Site map</a>
         </li>
